@@ -28,18 +28,17 @@
     <!-- Header Section -->
     <header>
       <div class="logo-container">
-        <!-- Logo file is in src/Autoboy.jpg -->
-        <img class="logo" src="./src/Autoboy.jpg" alt="Logo Autoboy S.A.">
+        <img class="logo" src="./src/Autoboy.jpeg" alt="Logo Autoboy S.A.">
       </div>
       <h1>Autoboy S.A.</h1>
       <p class="subtitle">Centro oficial de documentos, autorizaciones y políticas de viaje. Selecciona un documento para visualizarlo.</p>
     </header>
-
+    
     <!-- Document Link List -->
     <main class="links-list">
       
       <!-- 1. Condiciones Generales de Transporte -->
-      <a href="#" class="link-card" style="--delay: 1;" target="_blank" rel="noopener noreferrer">
+      <a href="./docs/CONTRATO DE TRANSPORTE AUTOBOY S.A..pdf" class="link-card" style="--delay: 1;" target="_blank" rel="noopener noreferrer">
         <div class="card-content">
           <div class="icon-wrapper">
             <i class="fas fa-route"></i>
@@ -50,7 +49,7 @@
       </a>
 
       <!-- 2. Política de Transporte de Menores de Edad -->
-      <a href="#" class="link-card" style="--delay: 2;" target="_blank" rel="noopener noreferrer">
+      <a href="./docs/CONDICIONES DE TRANSPORTE DE MENORES EDAD.pdf" class="link-card" style="--delay: 2;" target="_blank" rel="noopener noreferrer">
         <div class="card-content">
           <div class="icon-wrapper">
             <i class="fas fa-child"></i>
@@ -61,7 +60,7 @@
       </a>
 
       <!-- 3. Términos y Condiciones de Equipaje -->
-      <a href="#" class="link-card" style="--delay: 3;" target="_blank" rel="noopener noreferrer">
+      <a href="#equipaje-modal" class="link-card" style="--delay: 3;">
         <div class="card-content">
           <div class="icon-wrapper">
             <i class="fas fa-suitcase"></i>
@@ -83,7 +82,7 @@
       </a>
 
       <!-- 5. Politica de Transporte de Mascotas -->
-      <a href="#" class="link-card" style="--delay: 5;" target="_blank" rel="noopener noreferrer">
+      <a href="./docs/CONDICIONES DE TRANSPORTE DE MASCOTAS.pdf" class="link-card" style="--delay: 5;" target="_blank" rel="noopener noreferrer">
         <div class="card-content">
           <div class="icon-wrapper">
             <i class="fas fa-paw"></i>
@@ -94,7 +93,7 @@
       </a>
 
       <!-- 6. Formato Autorización de Transporte de Menores de Edad -->
-      <a href="#" class="link-card" style="--delay: 6;" target="_blank" rel="noopener noreferrer">
+      <a href="./docs/LIB-PYV-FOR-001 AUTORIZACIÓN DE TRANSPORTE DE MENORES .pdf" class="link-card" style="--delay: 6;" target="_blank" rel="noopener noreferrer">
         <div class="card-content">
           <div class="icon-wrapper">
             <i class="fas fa-file-signature"></i>
@@ -105,7 +104,7 @@
       </a>
 
       <!-- 7. Formato Autorizacion de Transporte de Mascotas -->
-      <a href="#" class="link-card" style="--delay: 7;" target="_blank" rel="noopener noreferrer">
+      <a href="./docs/Copia de LIB.PYV-FOR-002-AUTORIZACION-TRANSPORTE-DE-MASCOTAS-V.1.pdf" class="link-card" style="--delay: 7;" target="_blank" rel="noopener noreferrer">
         <div class="card-content">
           <div class="icon-wrapper">
             <i class="fas fa-file-signature"></i>
@@ -121,6 +120,14 @@
     <footer>
       <p class="copyright">&copy; 2026 Autoboy S.A. Todos los derechos reservados.</p>
     </footer>
+  </div>
+
+  <!-- Image Modal for Equipaje Terms -->
+  <div id="equipaje-modal" class="modal-overlay" aria-hidden="true">
+    <div class="modal-content">
+      <a href="#" class="modal-close" aria-label="Cerrar">&times;</a>
+      <img src="./docs/Terminos y Condiciones de Equipaje.jpeg" alt="Términos y Condiciones de Equipaje">
+    </div>
   </div>
 
 </body>
